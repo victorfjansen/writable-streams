@@ -10,3 +10,4 @@ commandHandler.on("myEvent", (myCallbackValue) => {
 // producer
 setTimeout(() =>
     commandHandler.emit("myEvent", "myCallbackValue"), 2000)
+
